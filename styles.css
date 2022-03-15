@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7B82EA;
+  color: snow;
+  text-align: center;
+}
+
+.menor {
+  color: red;
+}
+
+.mayor {
+  color: aqua;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  background: #0069D9;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  box-shadow: 0 2px 5px #4B476D;
+}
+
+button:hover {
+  background-color: #007BFF;
+}

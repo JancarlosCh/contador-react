@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- meta tags pwa para android-->
+  <meta name="theme-color" content="#7B3E9B"> <!-- Coloca el status bar del color que le otorguemos en content-->
+  <meta name="MobileOptimized" content="width"> <!-- La aplicación web está optimizada teniendo en cuenta el ancho-->
+  <meta name="HandheldFriendly" content="true"> <!-- Optimiza la aplicación web para que sea usada con el touch-->
+
+  <!-- meta tags pwa para ios-->
+  <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Activa la opción de cambiar el color del status bar-->
+  <meta name="apple-mobile.web-app-status-bar-style" content="black-translucent"> <!-- Color del statuss bar-->
+
+  <!-- title -->
+  <title>Contador</title>
+
+  <!-- android icon -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+
+  <!-- aple icon -->
+  <link rel="apple-touch-icon" href="./favicon.png" type="image/png">
+  <link rel="apple-touch-startup-image" href="./favicon.png" type="image/png"> <!-- activa la pantalla de splash para que aparezca en el centro -->
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- manifest -->
+  <link rel="manifest" href="./manifest.json">
+
+  <!-- scripts -->
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/babel" src="./components/Contador.js"></script>
+  <script type="text/babel" src="./app.js"></script>
+  <script src="./register.js"></script>
+</body>
+
+</html>
